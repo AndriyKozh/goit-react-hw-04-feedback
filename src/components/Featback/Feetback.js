@@ -41,11 +41,5 @@ function Feedback() {
     </FeetbackBlock>
   );
 }
-{
-  /* <FeedbackOptions
-options={Object.keys(this.state)}
-onLeaveFeedback={this.addValue}
-/> */
-}
 
 export default Feedback;
