@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import {
   StatisticsContent,
   StatisticsContentBlock,
@@ -11,7 +13,6 @@ function Statistics({
   total,
   addPositivFeedback,
 }) {
-  console.log(total);
   return (
     <StatisticsContentBlock>
       <StatisticsContent>
@@ -33,4 +34,13 @@ function Statistics({
     </StatisticsContentBlock>
   );
 }
+
+Statistics.propTypes = {
+  addGood: PropTypes.number.isRequired,
+  addNeutral: PropTypes.number.isRequired,
+  addBad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  addPositivFeedback: PropTypes.number.isRequired,
+};
+
 export default Statistics;
