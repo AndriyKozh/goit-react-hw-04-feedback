@@ -3,7 +3,6 @@ import FeedbackOptions from '../FeedbackOptions/FeedbackOptions';
 import SectionTitle from 'components/SectionTitle/SectionTitle';
 import { FeetbackBlock } from './Featback.style';
 import { useState } from 'react';
-import PropTypes from 'prop-types';
 
 function Feedback() {
   const [value, setValue] = useState({
