@@ -35,7 +35,7 @@ function Feedback() {
             addPositivFeedback={addPositivFeedback}
           ></Statistics>
         ) : (
-          'No fidback give'
+          'No feedback give'
         )}
       </SectionTitle>
     </FeetbackBlock>
