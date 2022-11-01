@@ -4,6 +4,7 @@ export const FeetbackBlock = styled.div`
   border: 1px solid #000;
   min-height: 700px;
   margin-top: 20%;
+  margin-bottom: 20%;
   width: 40%;
   padding: 40px;
   text-align: center;
